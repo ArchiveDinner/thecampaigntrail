@@ -7,6 +7,15 @@ campaignTrail_temp.questions_json = [
             "description": "What would you say the people as you accept your nomination for president?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 42775,
+        "fields": {
+            "priority": 1,
+            "description": "As all have heard, the economy is doing good, but most individual people are not doing so good, some even worse. How will you respond, and what plan do you have to make it better?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -29,10 +38,26 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 102,
+        "pk": 42772,
         "fields": {
             "question": 42699,
             "description": "Thank you everyone for your nomination, we will make sure to give you all a good government, I have a solid plan for the country you can look at right here..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42776,
+        "fields": {
+            "question": 42775,
+            "description": "Tojiko and her cronies have manipulated the data and only hear what they want to hear. Remilia had all the right ideas under her administration and I will bring back that common sense!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42780,
+        "fields": {
+            "question": 42775,
+            "description": "The economy is not the stock market, which Tojiko and cronies are using to judge the economy as \"good\". But in my plan to bring back our country, I have a plan that will meet workers where they are."
         }
     }
 ]
@@ -3787,7 +3812,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1145,
         "fields": {
-            "candidate": 102,
+            "candidate": 42772,
             "issue": 110,
             "issue_score": -0.3875
         }
@@ -4866,10 +4891,30 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 42774,
         "fields": {
-            "answer": 102,
+            "answer": 42772,
             "candidate": 101,
             "affected_candidate": 101,
             "global_multiplier": 0.099
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42778,
+        "fields": {
+            "answer": 42776,
+            "candidate": 101,
+            "affected_candidate": 101,
+            "global_multiplier": 0.094
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42782,
+        "fields": {
+            "answer": 42780,
+            "candidate": 101,
+            "affected_candidate": 101,
+            "global_multiplier": 0.1002
         }
     }
 ]
@@ -4901,9 +4946,27 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 42773,
         "fields": {
-            "answer": 102,
+            "answer": 42772,
             "candidate": 101,
             "answer_feedback": "Wow, that's... surprisingly competent of you. You might even win some voters for yourself if you keep it up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42777,
+        "fields": {
+            "answer": 42776,
+            "candidate": 101,
+            "answer_feedback": "While many did better under Remilia Scarlet than today, it's not the best to lean on her as people also remember the bad and the ugly."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42781,
+        "fields": {
+            "answer": 42780,
+            "candidate": 101,
+            "answer_feedback": "This is a good choice of words, again, surprisingly competent today. However, your base and especially any possible converts will be expecting some sort of concrete battle plan by inauguration day."
         }
     }
 ]
@@ -4914,10 +4977,8 @@ campaignTrail_temp.jet_data = [{
     "nicknames": {
         "101": "Scarlet",
         "201": "Tojiko",
-        "102": "Minamitsu"
     },
     "mapping_enabled": false,
     "mapping_data": {}
 }
 ]
-
