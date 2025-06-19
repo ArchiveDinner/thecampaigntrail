@@ -1,0 +1,286 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 10,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p>The world has returned to normal; and there are so many candidates, and only so much air time. Could the Mistress Scarlet turn the tides  and win over the public opinion ever again? Could Tojiko reverse the tide of public opinion keep her hold on the presidency? Could Morichika pull off the greatest offset the world has seen? The world is biting its finger nails to find out its fate.</p>",
+            "image_url": "https://d3i6fh83elv35t.cloudfront.net/static/2019/07/TakingStage1-768x512.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://en.touhouwiki.net/images/0/00/055BAiJRKeine.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2024"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Flandre",
+            "last_name": "Scarlet",
+            "election": 21,
+            "party": "People's Conservative Party",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Hold on, are we witnessing the formation of a dynasty? Possible. After the big conservative split in 2021, she and Remilia have had their opposition on every side of the aisle, with Remilia being annuled (that's why you are doing it after all). But as a big household name for a long time, they've learned to shrug it off for the most part. But could she do that to an entire country? Especially with the tribulations of her elder sister, Remilia?</p>",
+            "color_hex": "#804040",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://en.touhouwiki.net/images/e/ef/FDSVol5.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "Minamitsu",
+            "last_name": "Murasa",
+            "election": 21,
+            "party": "People's Conservative Party",
+            "state": "Virginia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#804040",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://en.touhouwiki.net/images/a/aa/Minamitsu_Whos_Who.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Speaker of the house during your first term, well until losing the majority in 2018 and finally the post to the Democrats in 2020, she has come back to your side. However, since she has stuck onto you for that time, she also introduces more controversy for you.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "Okina",
+            "last_name": "Matara",
+            "election": 21,
+            "party": "People's Conservative Party",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#804040",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>An independent in congress, she's decided to support your campaign. The right-populist connection may make for good chemistry between you. And, an unknown, very local name may present a good opportunity to reinvent your ticket.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Soga",
+            "last_name": "Tojiko",
+            "election": 21,
+            "party": "Democratic Party",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>The current president, elected in 2020 during the backdrop of COVID-19. Attacked by the right for being a Democrat, and from those to the Left for not doing enough. However, she has been a good filler from the chaos of Scarlet. But can she keep it? Time will tell.</p>",
+            "color_hex": "#008000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://en.touhouwiki.net/images/6/6e/ThGKTojiko.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Aya",
+            "last_name": "Shameimaru",
+            "election": 21,
+            "party": "Democratic Party",
+            "state": "Illinois",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#008000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://en.touhouwiki.net/images/5/5d/EotWAya.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Your current VP, and you don't fix what isn't broken right? Even more of a filler episode herself but the vice presidency is an unimportant affair all things considered...</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Yukari",
+            "last_name": "Yakumo",
+            "election": 21,
+            "party": "Democratic Party",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#008040",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://en.touhouwiki.net/images/3/35/SSIBYukari.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Yukari was the candidate before your presidency, the one Remilia defeated. Adding her to your ticket could satiate the forces to your left, but you know what happens to your chances rightward. </p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 115320,
+        "fields": {
+            "candidate": 101,
+            "running_mate": 102
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 172055,
+        "fields": {
+            "candidate": 101,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 129823,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 202
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 138888,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 203
+        }
+    }
+]
+
+campaignTrail_temp.credits = "wiptes167"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            101,
+            201
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            101,
+            201
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2024"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://en.touhouwiki.net/images/0/09/Wahh_gensokyo.PNG",
+    "backgroundImageUrl": "https://en.touhouwiki.net/images/9/94/Th09Muenzuka.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"It's just a prank bro!\" -Someone c. 2017",
+    "gameTitle": "THE GENSOKYO TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE GENSOKYO TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"It's just a prank bro!" -Someone c. 2017</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://en.touhouwiki.net/images/0/09/Wahh_gensokyo.PNG";
+
+document.body.background = "https://en.touhouwiki.net/images/9/94/Th09Muenzuka.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
+
+//#endcode
