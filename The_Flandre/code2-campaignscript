@@ -1,0 +1,9 @@
+// Generated with CampaignScript, report any issues (with CampaignScript) to Decstar.
+
+e = campaignTrail_temp;
+e.questions_json = [{"model":"campaign_trail.question","pk":1000,"fields":{"priority":1,"description":"What would you say the people as you accept your nomination for president?","likelihood":1}}];
+e.answers_json = [{"model":"campaign_trail.answer","pk":2000,"fields":{"question":1000,"description":"I would like to thank you all for your support, and I promise we will make America great again. We will be a stronger nation under my administration, especially compared to the weakling Tojiko."}},{"model":"campaign_trail.answer","pk":2001,"fields":{"question":1000,"description":"I promise to bring back our society and economy. I will bring back so many jobs, you won't even believe!"}},{"model":"campaign_trail.answer","pk":2002,"fields":{"question":1000,"description":"Thank you everyone for your nomination, we will make sure to give you all a good government, I have a solid plan for the country you can look at right here..."}}];
+e.answer_feedback_json = [{"model":"campaign_trail.answer_feedback","pk":3000,"fields":{"answer":2000,"candidate":e.candidate_id,"answer_feedback":"This is a relatively restrained response from you but, considering history, would the people buy it?"}},{"model":"campaign_trail.answer_feedback","pk":3001,"fields":{"answer":2001,"candidate":e.candidate_id,"answer_feedback":"It's a good message. But will it work in practice?"}},{"model":"campaign_trail.answer_feedback","pk":3002,"fields":{"answer":2002,"candidate":e.candidate_id,"answer_feedback":"Wow, that's... surprisingly competent of you. You might even win some voters for yourself."}}];
+e.answer_score_global_json = [];
+e.answer_score_state_json = [];
+e.answer_score_issue_json = [];
