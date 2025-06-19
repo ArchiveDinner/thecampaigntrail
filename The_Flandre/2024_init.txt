@@ -45,7 +45,7 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 42637,
+        "pk": 101,
         "fields": {
             "first_name": "Flandre",
             "last_name": "Scarlet",
@@ -68,7 +68,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 42772,
+        "pk": 102,
         "fields": {
             "first_name": "Minamitsu",
             "last_name": "Murasa",
@@ -114,7 +114,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 42710,
+        "pk": 201,
         "fields": {
             "first_name": "Soga",
             "last_name": "Tojiko",
