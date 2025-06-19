@@ -26,6 +26,14 @@ campaignTrail_temp.answers_json = [
             "question": 42699,
             "description": "I promise to bring back our society and economy. I will bring back so many jobs, you won't even believe!"
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 102,
+        "fields": {
+            "question": 42699,
+            "description": "Thank you everyone for your nomination, we will make sure to give you all a good government, I have a solid plan for the country you can look at right here..."
+        }
     }
 ]
 
@@ -3779,7 +3787,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1145,
         "fields": {
-            "candidate": 42772,
+            "candidate": 102,
             "issue": 110,
             "issue_score": -0.3875
         }
@@ -4851,23 +4859,22 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42702,
             "candidate": 101,
             "affected_candidate": 101,
-            "global_multiplier": 1
+            "global_multiplier": 0.096
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42774,
+        "fields": {
+            "answer": 102,
+            "candidate": 101,
+            "affected_candidate": 101,
+            "global_multiplier": 0.099
         }
     }
 ]
 
-campaignTrail_temp.answer_score_issue_json = [
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 42709,
-        "fields": {
-            "answer": 42702,
-            "issue": 111,
-            "issue_score": 0,
-            "issue_importance": 1
-        }
-    }
-]
+campaignTrail_temp.answer_score_issue_json = []
 
 campaignTrail_temp.answer_score_state_json = []
 
@@ -4889,6 +4896,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 101,
             "answer_feedback": "It's a good message. But will it work in practice?"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42773,
+        "fields": {
+            "answer": 102,
+            "candidate": 101,
+            "answer_feedback": "Wow, that's... surprisingly competent of you. You might even win some voters for yourself if you keep it up."
+        }
     }
 ]
 
@@ -4896,11 +4912,9 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.jet_data = [{
     "nicknames": {
-        "300": "Joe Biden",
-        "301": "Donald Trump",
         "101": "Scarlet",
         "201": "Tojiko",
-        "42772": "Minamitsu"
+        "102": "Minamitsu"
     },
     "mapping_enabled": false,
     "mapping_data": {}
