@@ -257,13 +257,14 @@ jet_data = {
     "bannerImageUrl": "https://en.touhouwiki.net/images/0/09/Wahh_gensokyo.PNG",
     "backgroundImageUrl": "https://en.touhouwiki.net/images/9/94/Th09Muenzuka.jpg",
     "endingTextColor": "#000000",
+    "customQuote": "",
     "gameTitle": "THE GENSOKYO TRAIL"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>THE GENSOKYO TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"It's just a prank bro!" -Someone c. 2017</em></font>\n            ';
+corrr = '\n              <h2>THE GENSOKYO TRAIL</h2>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
