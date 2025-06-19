@@ -257,7 +257,6 @@ jet_data = {
     "bannerImageUrl": "https://en.touhouwiki.net/images/0/09/Wahh_gensokyo.PNG",
     "backgroundImageUrl": "https://en.touhouwiki.net/images/9/94/Th09Muenzuka.jpg",
     "endingTextColor": "#000000",
-    "customQuote": "\"It's just a prank bro!\" -Someone c. 2017",
     "gameTitle": "THE GENSOKYO TRAIL"
 }
 
