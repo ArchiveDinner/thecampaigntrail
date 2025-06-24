@@ -16,6 +16,24 @@ campaignTrail_temp.questions_json = [
             "description": "As all have heard, the economy is doing good, but most individual people are not doing so good, some even worse. How will you respond, and what plan do you have to make it better?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 42783,
+        "fields": {
+            "priority": 0,
+            "description": "One of the bigger issues of our day is that of immigration. And the people are curious where you stand. Are you more of the same or will you be different?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 42786,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -38,7 +56,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 42772,
+        "pk": 102,
         "fields": {
             "question": 42699,
             "description": "Thank you everyone for your nomination, we will make sure to give you all a good government, I have a solid plan for the country you can look at right here..."
@@ -58,6 +76,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 42775,
             "description": "The economy is not the stock market, which Tojiko and cronies are using to judge the economy as \"good\". But in my plan to bring back our country, I have a plan that will meet workers where they are."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42784,
+        "fields": {
+            "question": 42783,
+            "description": "I find immigration as an act of love, we have all these people come here because they just love our country that much. And, we need an easier path to immigration."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42785,
+        "fields": {
+            "question": 42783,
+            "description": "Tojiko has let in too many people carelessly and we need to toss them out!"
         }
     }
 ]
@@ -3812,7 +3846,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1145,
         "fields": {
-            "candidate": 42772,
+            "candidate": 102,
             "issue": 110,
             "issue_score": -0.3875
         }
@@ -4891,7 +4925,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 42774,
         "fields": {
-            "answer": 42772,
+            "answer": 102,
             "candidate": 101,
             "affected_candidate": 101,
             "global_multiplier": 0.099
@@ -4914,7 +4948,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42780,
             "candidate": 101,
             "affected_candidate": 101,
-            "global_multiplier": 0.1002
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42787,
+        "fields": {
+            "answer": 42784,
+            "candidate": 101,
+            "affected_candidate": 101,
+            "global_multiplier": -0.16
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42790,
+        "fields": {
+            "answer": 42785,
+            "candidate": 101,
+            "affected_candidate": 101,
+            "global_multiplier": 0.095
         }
     }
 ]
@@ -4946,9 +5000,9 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 42773,
         "fields": {
-            "answer": 42772,
+            "answer": 102,
             "candidate": 101,
-            "answer_feedback": "Wow, that's... surprisingly competent of you. You might even win some voters for yourself if you keep it up."
+            "answer_feedback": "Wow, that's... surprisingly competent of you. You might even win some voters for yourself if you keep this up."
         }
     },
     {
@@ -4957,7 +5011,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42776,
             "candidate": 101,
-            "answer_feedback": "While many did better under Remilia Scarlet than today, it's not the best to lean on her as people also remember the bad and the ugly."
+            "answer_feedback": "While many did better under Remilia Scarlet than today, it's not the best to lean on her as many people also remember the bad and the ugly."
         }
     },
     {
@@ -4966,7 +5020,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42780,
             "candidate": 101,
-            "answer_feedback": "This is a good choice of words, again, surprisingly competent today. However, your base and especially any possible converts will be expecting some sort of concrete battle plan by inauguration day."
+            "answer_feedback": "This is a good choice of words, surprisingly competent today. However, your base and especially any possible converts will be expecting some sort of concrete battle plan by inauguration day."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42788,
+        "fields": {
+            "answer": 42784,
+            "candidate": 101,
+            "answer_feedback": "... What? One of the big complaints about the Tojiko administration is that's it's weak on this issue. And, aren't you a conservative too?... What next are you going to do, Suwako Moriya? Beg the crowd to clap?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42792,
+        "fields": {
+            "answer": 42785,
+            "candidate": 101,
+            "answer_feedback": "Good for riling up your base, and it's somewhat in line with public opinion. But, this won't net you all that many new people."
         }
     }
 ]
@@ -4975,10 +5047,14 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.jet_data = [{
     "nicknames": {
+        "300": "Joe Biden",
+        "301": "Donald Trump",
         "101": "Scarlet",
         "201": "Tojiko",
+        "102": "Minamitsu"
     },
     "mapping_enabled": false,
     "mapping_data": {}
 }
 ]
+
