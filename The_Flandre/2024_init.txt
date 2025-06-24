@@ -30,12 +30,12 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2020,
             "summary": "<p>The world has returned to normal; and there are so many candidates, and only so much air time. Could the Mistress Scarlet turn the tides  and win over the public opinion ever again? Could Tojiko reverse the tide of public opinion keep her hold on the presidency? Could Morichika pull off the greatest offset the world has seen? The world is biting its finger nails to find out its fate.</p>",
-            "image_url": "https://d3i6fh83elv35t.cloudfront.net/static/2019/07/TakingStage1-768x512.jpg",
+            "image_url": "https://d3i6fh83elv35t.cloudfront.net/static/427109/07/TakingStage1-768x512.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://en.touhouwiki.net/images/0/00/055BAiJRKeine.jpg",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/427102-no-majority.jpg",
             "creator": "Dan Bryan",
             "display_year": "2024"
         }
@@ -84,7 +84,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Speaker of the house during your first term, well until losing the majority in 2018 and finally the post to the Democrats in 2020, she has come back to your side. However, since she has stuck onto you for that time, she also introduces more controversy for you.</p>",
+            "description_as_running_mate": "<p>Speaker of the house during your first term, well until losing the majority in 427108 and finally the post to the Democrats in 2020, she has come back to your side. However, since she has stuck onto you for that time, she also introduces more controversy for you.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -114,7 +114,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 201,
+        "pk": 42710,
         "fields": {
             "first_name": "Soga",
             "last_name": "Tojiko",
@@ -204,7 +204,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 129823,
         "fields": {
-            "candidate": 201,
+            "candidate": 42710,
             "running_mate": 202
         }
     },
@@ -212,7 +212,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 138888,
         "fields": {
-            "candidate": 201,
+            "candidate": 42710,
             "running_mate": 203
         }
     }
@@ -225,7 +225,7 @@ campaignTrail_temp.opponents_default_json = [
         "election": 21,
         "candidates": [
             42637,
-            201
+            42710
         ]
     }
 ]
@@ -235,7 +235,7 @@ campaignTrail_temp.opponents_weighted_json = [
         "election": 21,
         "candidates": [
             42637,
-            201
+            42710
         ]
     }
 ]
