@@ -1,2 +1,0 @@
-Lesson Learned: Thou shalt not use NCT.
-Rewriting using Jet's, come back soon. -wiptes167
