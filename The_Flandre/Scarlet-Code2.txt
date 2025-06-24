@@ -34,6 +34,15 @@ campaignTrail_temp.questions_json = [
             "description": "Your staffers recommend that you should try and get one of your predecessors or some other major conservative big shot to help support you. So, who will you decide to try and arraign?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 42876,
+        "fields": {
+            "priority": 0,
+            "description": "Another big issue is the culture war, and some of your positions may prove a bit... out there. Which position will you ardently defend?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -124,6 +133,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 42786,
             "description": "Kasen Ibaraki (IND, Governor of Virginia)"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42877,
+        "fields": {
+            "question": 42876,
+            "description": "Abortion, I believe that personhood starts at conception."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42880,
+        "fields": {
+            "question": 42876,
+            "description": "LGBT, I don't believe in that nor that it's particularly natural especially the Qs and plusses they like to add. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42883,
+        "fields": {
+            "question": 42876,
+            "description": "I'll see if I can focus on DEI, our university admissions system is nothing short of a disaster, we need true meritocracy. Who really cares about what happened 300 years ago?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42886,
+        "fields": {
+            "question": 42876,
+            "description": "Frankly, I'm not going to comment on this issue... It's truly not a high importance thing in my mind."
         }
     }
 ]
@@ -5040,7 +5081,47 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42870,
             "candidate": 42637,
             "affected_candidate": 42637,
-            "global_multiplier": 0.098
+            "global_multiplier": 0.097
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42879,
+        "fields": {
+            "answer": 42877,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42882,
+        "fields": {
+            "answer": 42880,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "global_multiplier": 0.093
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42885,
+        "fields": {
+            "answer": 42883,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "global_multiplier": 0.087
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42887,
+        "fields": {
+            "answer": 42886,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "global_multiplier": 0.1
         }
     }
 ]
@@ -5090,6 +5171,72 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 42637,
             "affected_candidate": 42637,
             "state_multiplier": 0.1529
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42889,
+        "fields": {
+            "answer": 42886,
+            "state": 1108,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42891,
+        "fields": {
+            "answer": 42883,
+            "state": 1100,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42892,
+        "fields": {
+            "answer": 42883,
+            "state": 1123,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42893,
+        "fields": {
+            "answer": 42883,
+            "state": 1117,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42894,
+        "fields": {
+            "answer": 42883,
+            "state": 1139,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 42895,
+        "fields": {
+            "answer": 42883,
+            "state": 1109,
+            "candidate": 42637,
+            "affected_candidate": 42637,
+            "state_multiplier": -0.009
         }
     }
 ]
@@ -5192,6 +5339,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 42870,
             "candidate": 42637,
             "answer_feedback": "Moderates will definitely like her, but some cost of your core base..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42878,
+        "fields": {
+            "answer": 42877,
+            "candidate": 42637,
+            "answer_feedback": "This is an issue with a lot of nuance, which you decide to pave over..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42881,
+        "fields": {
+            "answer": 42880,
+            "candidate": 42637,
+            "answer_feedback": "This may an issue where you may be able to pry more people, particularly with the nothing-past-Q comment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42884,
+        "fields": {
+            "answer": 42883,
+            "candidate": 42637,
+            "answer_feedback": "This is where you could actually get people on your side, especially if you make a good plan on this. Though, it will shy away minorities."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 42888,
+        "fields": {
+            "answer": 42886,
+            "candidate": 42637,
+            "answer_feedback": "This will definitely bring more votes for you, though it will hurt your base."
         }
     }
 ]
