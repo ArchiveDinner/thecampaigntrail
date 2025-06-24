@@ -45,7 +45,7 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 101,
+        "pk": 42637,
         "fields": {
             "first_name": "Flandre",
             "last_name": "Scarlet",
@@ -188,7 +188,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 115320,
         "fields": {
-            "candidate": 101,
+            "candidate": 42637,
             "running_mate": 102
         }
     },
@@ -196,7 +196,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 172055,
         "fields": {
-            "candidate": 101,
+            "candidate": 42637,
             "running_mate": 103
         }
     },
@@ -224,7 +224,7 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 21,
         "candidates": [
-            101,
+            42637,
             201
         ]
     }
@@ -234,7 +234,7 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 21,
         "candidates": [
-            101,
+            42637,
             201
         ]
     }
